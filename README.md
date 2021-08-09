@@ -53,5 +53,8 @@ Building with `mvn clean package` or `mvn clean package` should successfully run
 Utils - To help clean up dirty strings(such as invalid phone numbers, mixed punctuations for dictionary words etc)
 Delegate - to delegate the phone number to the respective handlers(STDIN/FILE handler), and also to the respective algo implementation
 Algo - This forms the crux of the codebase
-1. Iterate through e
+  1. Iterate through each prefix  and search for matching word(s).
+  2. If matching word(s) can be found use ,
+  3. Make a recursive call to get all combinations of the remaining suffix.
+  4. Concatenate the matching combinations of the prefix and the suffix.
 
