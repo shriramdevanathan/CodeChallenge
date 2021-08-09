@@ -36,13 +36,11 @@ I have deliberately kept the output clean as that was the requirement. The progr
 ## Scenario 2: Read numbers from a given file(\n separated)
 
 ### Default Dictionary
-
-I have used the dictionary from the following link: https://github.com/first20hours/google-10000-english/blob/master/google-10000-english-no-swears.txt
-and added a couple of more words here and there for testing purposes
-
 ```sh
 java -jar CodingChallenge-1.0-SNAPSHOT.jar /path/to/file1 /path/to/file2 <and so on>
 ```
+I have used the dictionary from the following link: https://github.com/first20hours/google-10000-english/blob/master/google-10000-english-no-swears.txt
+and added a couple of more words here and there for testing purposes
 
 ### Provided Dictionary
 ```sh
