@@ -11,15 +11,15 @@ The finalized JAR should be generated in the target folder.
 ## Sample Usage
 
 
-Scenario 1 : Read phone numbers from STDIN:
+## Scenario 1 : Read phone numbers from STDIN:
 
 
-## Default dictionary
+### Default dictionary
 ```sh
 java -jar CodingChallenge-1.0-SNAPSHOT.jar
 ```
 
-## Provided dictionary
+### Provided dictionary
 ```sh
 java -Ddic.file-/path/to/dictionary -jar CodingChallenge-1.0-SNAPSHOT.jar
 ```
@@ -33,14 +33,14 @@ Once you enter the number, the program should spit out the possible combinations
 
 I have deliberately kept the output clean as that was the requirement. The program can be customized to make the output more fancy and more readable
 
-Scenario 2: Read numbers from a given file(\n separated)
+## Scenario 2: Read numbers from a given file(\n separated)
 
-## Default Dictionary
+### Default Dictionary
 ```sh
 java -jar CodingChallenge-1.0-SNAPSHOT.jar /path/to/file1 /path/to/file2 <and so on>
 ```
 
-## Provided Dictionary
+### Provided Dictionary
 ```sh
 java -Ddic.file-/path/to/dictionary -jar CodingChallenge-1.0-SNAPSHOT.jar /path/to/file1 /path/to/file2 <and so on>
 ```
