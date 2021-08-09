@@ -2,6 +2,10 @@
 
 ## Getting Started
 
+### Pre-requisites
+* Maven(>3.x) must be installed in your PC.
+* Java 8
+
 ### Build
 
 To build the project run 
