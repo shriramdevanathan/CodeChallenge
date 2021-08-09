@@ -6,7 +6,7 @@
 
 To build the project run 
 'mvn clean install' or `mvn clean package`.
-The finalized JAR along with sample dictionaries and inputs can be found in the `target` directory.
+The finalized JAR should be generated in the target folder.
 
 ## Sample Usage
 
@@ -31,6 +31,7 @@ You can chose to either enter a phone number, or q to quit the console straight 
 
 Once you enter the number, the program should spit out the possible combinations for the given number
 
+I have deliberately kept the output clean as that was the requirement. The program can be customized to make the output more fancy and more readable
 
 Scenario 2: Read numbers from a given file(\n separated)
 
@@ -43,6 +44,10 @@ java -jar CodingChallenge-1.0-SNAPSHOT.jar /path/to/file1 /path/to/file2 <and so
 ```sh
 java -Ddic.file-/path/to/dictionary -jar CodingChallenge-1.0-SNAPSHOT.jar /path/to/file1 /path/to/file2 <and so on>
 ```
+
+The program should spit out the possible combinations for the given numbers in the files all together
+
+I have deliberately kept the output continuous as that was the requirement. The program can be customized to make the output more fancy and more readable
 
 ### Test
 
